@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>Result</title>
+<style type="text/css">
+body {
+    margin:50px 0; 
+    padding:0;
+    text-align:center;
+}
+
+#Content {
+    width:500px;
+    margin:0 auto;
+    text-align:left;
+    padding:15px;
+    border:1px dashed #333;
+    background-color:#eee;
+}
+
+</style>
+
+</head>
+<body>
+<h1>X-Ray</h1>
+<img src="{{ url_for('static', filename = user_image) }}" alt="User Image" style="width:224px;height:224px;">
+<h3>{{ prediction }}</h3>
+</div>
+</body>
+</html>
