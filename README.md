@@ -18,7 +18,11 @@ Corona - COVID19 virus affects the respiratory system of healthy individual & Ch
 With the Chest X - Ray dataset, developing a Deep Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients.
 
 This model also powers a web application to classify the Corona Virus(Pneumonia) X-rays.
+Screenshots 
+
 ![web_app](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/screenshots/web_app.png)
+
+![web_app_classify](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/screenshots/web_app_classify.png)
 
 Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) - 
 * Data exploration,
@@ -65,3 +69,5 @@ We recieved
 Since the test set is not labeled , we cannot get accuracy
 
 This model detects 57/58 positive cases from the full train data and 77 from the test data 
+
+# Instructions To Run
