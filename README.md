@@ -8,7 +8,6 @@ Table of Contents
   * [Deep network architecture](#the-network)
   * [Pipeline](#pipeline)
   * [Results](#results)
-    * [Screenshots](#screenshots)
   * [Instructions to run](#instructions-to-run)
 
 # Description 
@@ -19,6 +18,7 @@ Corona - COVID19 virus affects the respiratory system of healthy individual & Ch
 With the Chest X - Ray dataset, developing a Deep Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients.
 
 This model also powers a web application to classify the Corona Virus(Pneumonia) X-rays.
+![web_app](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/screenshots/web_app.png)
 
 Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) - 
 * Data exploration,
