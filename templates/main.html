@@ -32,6 +32,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     		<input class = "btn"  type=submit value=Upload>
   		</form>
   		<p class="w3-text-grey">Aceepted image format - jpg/jpeg</p>
+      <a class="w3-text-grey" href="{{ url_for('static', filename = covid_positive.jpeg) }}" download="GFG">Example Covid-19 Positive X-ray</a> 
+      <a class="w3-text-grey" href="{{ url_for('static', filename = normal.jpeg) }}" download="GFG">Example Covid-19 Negative X-ray</a>
     </div>
   </div>
 </div>
