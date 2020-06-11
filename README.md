@@ -16,7 +16,9 @@ Covid-19 Detection from Lung X-rays
 
 Corona - COVID19 virus affects the respiratory system of healthy individual & Chest X-Ray is one of the important imaging methods to identify the corona virus.
 
-With the Chest X - Ray dataset, developing a Machine Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients & this model powers the AI web application to test the Corona Virus in Faster Phase.
+With the Chest X - Ray dataset, developing a Deep Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients.
+
+This model also powers a web application to classify the Corona Virus(Pneumonia) X-rays.
 
 Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) - 
 * Data exploration,
