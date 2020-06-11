@@ -2,13 +2,29 @@
 
 Table of Contents
 -----------------
-
+  
+  * [Description](#description)
   * [Dataset](#the-dataset)
   * [Deep network architecture](#the-network)
   * [Pipeline](#pipeline)
   * [Results](#results)
     * [Screenshots](#screenshots)
   * [Instructions to run](#instructions-to-run)
+
+# Description 
+Covid-19 Detection from Lung X-rays 
+
+Corona - COVID19 virus affects the respiratory system of healthy individual & Chest X-Ray is one of the important imaging methods to identify the corona virus.
+With the Chest X - Ray dataset, developing a Machine Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients & this model powers the AI web application to test the Corona Virus in Faster Phase.
+
+Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) - 
+* Data exploration,
+* Data preparation,
+* Defining CNN Model,
+* Training and saving model.
+
+Notebook 2 [Covid-19 Detection from Lung X-rays Web App.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays_Web_App.ipynb)-
+* Creates web application using flask that takes an image as input and classifies it using the pre-trained model 
 
 
 # The Dataset:
@@ -29,7 +45,7 @@ Model Structure [skip image](#results)
 # Pipeline
 * Select the image from csv and feed it to ImageDataGenerator
 * Augment data 
-  * rescale the image 1./255, rotatate by 90 degrees, shify width and height by 0.15,flip horizontally, zoom by 0.5. 
+  * rescale the image 1./255, rotatate by 90 degrees, shift width and height by 0.15,flip horizontally, zoom by 0.5. 
 * Resize all proposals to 224x224 pixels
 * Perform a Forward pass through the network for all proposals
 * Get output from softmax layer , if output is > 0.5 label as positive else negative
