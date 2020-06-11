@@ -77,7 +77,7 @@ This model detects 57/58 positive cases from the full train data and 77 from the
 # Instructions To Run
 All the instructions are well documented in the notebooks.
 
-Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) - 
+Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) 
 
 Notebook 2 [Covid-19 Detection from Lung X-rays Web App.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays_Web_App.ipynb) 
 
