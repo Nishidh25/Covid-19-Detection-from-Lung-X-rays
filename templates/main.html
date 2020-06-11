@@ -16,14 +16,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:50px 50px">
-  <h1 class="w3-margin w3-jumbo" >Detection of Covid-19 from Chest X-ray</h1>
+  <h2 class="w3-margin w3-jumbo" >Detection of Covid-19 from Chest X-ray</h2>
   <p class="w3-xlarge">Corona - COVID19 virus affects the respiratory system of healthy individual & Chest X -Ray is one of the important imaging methods to identify the corona virus.</p>
-  <h1>Upload X-ray</h1>
-  <form method=post enctype=multipart/form-data>
-    <input  type=file name=file>
-    <input class = "btn"  type=submit value=Upload>
-  </form>
+
 </header>
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-32 w3-container" style="background-color:#383838;color: #FFFFFF;">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Classify X-ray</h1>
+      <h3 class="w3-padding-16">Upload X-ray</h3>
+  		<form  method=post enctype=multipart/form-data>
+    		<input type=file name=file>
+    		<input class = "btn"  type=submit value=Upload>
+  		</form>
+  		<p class="w3-text-grey">Aceepted image format - jpg/jpeg</p>
+    </div>
+  </div>
+</div>
+
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#383838;color: #FFFFFF;">
@@ -34,17 +48,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
       <p class="w3-text-grey">Dataset used - <a href="https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset">CoronaHack -Chest X-Ray-Dataset</a> </p>
     </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
   </div>
 </div>
 
+
+
 <div class="w3-container w3-center" style="background-color:#383838;color: #FFFFFF;">
-    <h1 class="w3-margin w3-xlarge"></h1>
-      <i class="w3-xlarge w3-padding-32 fa fa-github w3-hover-opacity"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="w3-xlarge w3-padding-32 fa fa-linkedin w3-hover-opacity"></i>
+    <a class="w3-xlarge w3-padding-32 fa fa-github w3-hover-opacity" href="https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays" target="_blank" style="text-decoration: none;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="w3-xlarge w3-padding-32 fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/nishidh-singh-shekhawat-944522100" target="_blank" style="text-decoration: none;"></a>
 </div>
 </body>
 </html>
