@@ -1,28 +1,50 @@
-<!doctype html>
-<html>
-<head>
-<title>X-Ray</title>
-<style type="text/css">
-	body {
-    margin:50px 0; 
-    padding:0;
-    text-align:center;
-}
-
-#Content {
-    width:500px;
-    margin:0 auto;
-    text-align:left;
-    padding:15px;
-    border:1px dashed #333;
-    background-color:#eee;
-}
+<!DOCTYPE html>
+<html lang="en">
+<title>Covid-19 X-Ray</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 </style>
-</head>
-<h1>Detection of Covid-19 from Lung X-ray</h1>
-<h1>Upload new File</h1>
-	<form method=post enctype=multipart/form-data>
-		<input type=file name=file>
-		<input type=submit value=Upload>
-	</form>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:50px 50px">
+  <h1 class="w3-margin w3-jumbo" >Detection of Covid-19 from Chest X-ray</h1>
+  <p class="w3-xlarge">Corona - COVID19 virus affects the respiratory system of healthy individual & Chest X -Ray is one of the important imaging methods to identify the corona virus.</p>
+  <h1>Upload X-ray</h1>
+  <form method=post enctype=multipart/form-data>
+    <input  type=file name=file>
+    <input class = "btn"  type=submit value=Upload>
+  </form>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#383838;color: #FFFFFF;">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About</h1>
+      <h5 class="w3-padding-32">With the Chest X - Ray dataset, Develop a Machine Learning Model to classify the X-Rays of Healthy vs Pneumonia (Corona) affected patients & this model powers the AI application to test the Corona Virus in Faster Phase.</h5>
+
+      <p class="w3-text-grey">Dataset used - <a href="https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset">CoronaHack -Chest X-Ray-Dataset</a> </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-center" style="background-color:#383838;color: #FFFFFF;">
+    <h1 class="w3-margin w3-xlarge"></h1>
+      <i class="w3-xlarge w3-padding-32 fa fa-github w3-hover-opacity"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="w3-xlarge w3-padding-32 fa fa-linkedin w3-hover-opacity"></i>
+</div>
+</body>
 </html>

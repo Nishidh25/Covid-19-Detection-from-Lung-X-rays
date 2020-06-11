@@ -7,6 +7,8 @@ body {
     margin:50px 0; 
     padding:0;
     text-align:center;
+    background-color:#383838;
+    color:#FFFFFF;
 }
 
 #Content {
@@ -21,7 +23,7 @@ body {
 </style>
 
 </head>
-<body>
+<body style = "font-family:courier,arial,helvetica;">
 <h1>X-Ray</h1>
 <img src="{{ url_for('static', filename = user_image) }}" alt="User Image" style="width:224px;height:224px;">
 <h3>{{ prediction }}</h3>
