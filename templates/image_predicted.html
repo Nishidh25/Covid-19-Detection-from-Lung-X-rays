@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Result</title>
 <style type="text/css">
 body {
@@ -19,15 +21,15 @@ body {
     border:1px dashed #333;
     background-color:#eee;
 }
-
 </style>
-
 </head>
+
+<!-- Main Body -->
 <body style = "font-family:courier,arial,helvetica;">
-<h1>X-Ray</h1>
-<img src="{{ url_for('static', filename = user_image) }}" alt="User Image" style="width:224px;height:224px;">
-<h3>{{ prediction }}</h3>
-<h4>Accuracy - {{ percent_accuracy }}%</h4>
-</div>
+	<h1>X-Ray</h1>
+	<img src="{{ url_for('static', filename = user_image) }}" alt="User Image" style="width:224px;height:224px;">
+	<h3>{{ prediction }}</h3>
+	<h4>Accuracy - {{ percent_accuracy }}%</h4>
 </body>
+
 </html>
