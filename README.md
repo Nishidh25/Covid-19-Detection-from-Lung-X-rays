@@ -80,5 +80,3 @@ All the instructions are well documented in the notebooks.
 Notebook 1 [Covid-19 Detection from Lung X-rays.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays.ipynb) 
 
 Notebook 2 [Covid-19 Detection from Lung X-rays Web App.ipynb](https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays/blob/master/Covid_19_Detection_from_Lung_X_rays_Web_App.ipynb) 
-
-Note: Make sure that the files are getting downloaded on colab from this repository, The model is approx 200mb and Github lfs allows limited bandwidth, in this case download the model from github and upload manually.
